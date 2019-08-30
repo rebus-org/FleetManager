@@ -23,3 +23,11 @@ You can see what's being worked on and get an overview here: [Fleet Manager Proj
 <a href="https://github.com/rebus-org/FleetManager/projects/1">
     <img src="https://raw.githubusercontent.com/rebus-org/FleetManager/master/img/project-board.png" alt="Fleet Manager Project Board"/>
 </a>
+
+## Documentation
+
+You can read about various things here on the wiki: [Fleet Manager Documentation Wiki](https://github.com/rebus-org/FleetManager/wiki).
+
+<a href="https://github.com/rebus-org/FleetManager/wiki">
+    <img src="https://raw.githubusercontent.com/rebus-org/FleetManager/master/img/docs-wiki.png" alt="Fleet Manager Project Board"/>
+</a>
