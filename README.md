@@ -6,7 +6,11 @@
                                         |___/
 ```
 
-This repository does not contain source code – it's used to host the documentation wiki and the issue tracker for Fleet Manager.
+This repository does not contain source code – it's used to host the installers, the documentation wiki, and the issue tracker for Fleet Manager.
+
+## Installers
+
+Go to https://github.com/rebus-org/FleetManager/tree/master/installers to find ZIP files with installers. You probably want to go for the latest version. 🙂
 
 ## Issue tracker
 
