@@ -1,0 +1,160 @@
+
+<!-- saved from url=(0067)https://rebus.fm/wp-content/uploads/2018/05/fm_data_protection.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./fm_data_protection_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Data Protection</h1>
+
+<p>
+    At rebus.fm, we care about data protection and your rights
+    as a user, and we want to do everything as transparently as possible.
+</p>
+
+<p>
+    This document describes how we handle data in Fleet Manager (FM) and
+    thus how we adhere to
+    <a href="https://ec.europa.eu/info/law/law-topic/data-protection_en">GDPR</a>
+    as well as other laws.
+</p>
+
+<p>
+    In this document, the concepts "Data Controller" and "Data Processor"
+    are used with the meaning as <a href="https://www.gdpreu.org/the-regulation/key-concepts/data-controllers-and-processors/">defined in GDPR</a>.
+</p>
+
+<p>
+    To contact rebus.fm regarding Data Protection, please direct
+    emails to: <a href="mailto:mogens@rebus.fm"><code>mogens@rebus.fm</code></a>.
+</p>
+
+<p>
+    <strong>
+        If something is not entirely clear, and/or if you believe there might 
+        be a problem in relation to any kind of legislation in the country
+        you are in, please get in touch with rebus.fm, and we will make the
+        necessary adjustments.
+    </strong>
+</p>
+
+
+
+<h2>Types of Data</h2>
+
+<p>
+    All data in FM falls into either of two categories:
+    </p><ul>
+        <li>Personal Data</li>
+        <li>Event Data</li>
+    </ul>
+<p></p>
+
+<p>
+    <strong>Personal Data</strong> is the data required for you, as a user,
+    to be signed up to FM. It consists of nothing more than
+</p>
+
+<ul>
+    <li>a random user ID</li>
+    <li>your email address</li>
+    <li>a salted and hashed password</li>
+    <li>which accounts in FM you can access</li>
+</ul>
+
+<p>
+    <strong>Event Data</strong> is the technical data forwarded to FM by
+    Rebus endpoints. It can generally be divided into
+</p>
+
+<ul>
+    <li>technical data (IDs, metrics, etc.)</li>
+    <li>payload data (message bodies and saga snapshots)</li>
+</ul>
+
+<p>
+    As the <strong>technical data</strong> only describes various technical
+    aspects of message processing, it is not capable of carrying personal 
+    information.
+</p>
+
+<p>
+    The <strong>payload data</strong> however, _can be anything_, as its
+    contents are defined by the YOU, as the user of FM, because FM basically accepts
+    this data without knowing what it is.
+</p>
+
+
+<h3>Roles</h3>
+
+<p>
+    In relation to your <strong>Personal Data</strong>, rebus.fm acts
+    as a "Data Controller".
+</p>
+
+<p>
+    In relation to <strong>Event Data</strong>, rebus.fm is a "Data Processor" 
+    and YOU (as the legal entity operating FM) are the "Data Controller".
+</p>
+
+
+
+<h2>Responsibilities</h2>
+
+<h3>Personal Data</h3>
+
+<p>
+    The aforementioned Personal Data is stored solely to be able to allow
+    users to log in to FM and be authorized to work with specific accounts.
+</p>
+
+<p>
+    You, as a user, can get in touch with rebus.fm anytime and have the data
+    we have registered about you
+
+    </p><ul>
+        <li>delivered to your email address (either in plain text or machine-readable form)</li>
+        <li>corrected, should you have encountered inaccurate information</li>
+        <li>irreversibly deleted</li>
+    </ul>
+
+    within 48 hours after receiving your request.
+<p></p>
+
+
+
+<h3>Event Data</h3>
+
+<p>
+    As FM has no way of knowing the contents of the <strong>payload data</strong>
+    sent to it, YOU as a user assume full responsibility of the data sent
+    to FM.
+</p>
+
+<p>
+    Should you, as the "Data Controller" be required to comply with YOUR subjects'
+    requests regarding THEIR data, rebus.fm can help by having all of your
+    <strong>Event Data</strong> within a specific account
+
+    </p><ul>
+        <li>delivered to you in machine-readable form</li>
+        <li>irreversibly deleted</li>
+    </ul>
+
+    within 48 hours after receiving your request.
+<p></p>
+
+</div>
+
+</body></html>
